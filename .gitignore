@@ -33,6 +33,7 @@ out/
 # --- OS & editors ---
 .DS_Store
 Thumbs.db
+~$*.docx
 .idea/
 .vscode/
 *.swp
