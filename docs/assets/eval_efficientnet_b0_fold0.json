@@ -1,0 +1,37 @@
+{
+  "checkpoint": "/Users/shafay11aug/Downloads/b_ZERGGNLZNi2/dermassist-ai/models/checkpoints/best_binary_efficientnet_b0_fold0.pt",
+  "model_name": "efficientnet_b0",
+  "task": "binary",
+  "fold": 0,
+  "n_splits": 5,
+  "evaluated_on": "held_out_validation_only",
+  "train_images_excluded": 8012,
+  "val_n": 2003,
+  "accuracy": 0.8781827259111333,
+  "precision_malignant": 0.6503067484662577,
+  "recall_malignant": 0.8132992327365729,
+  "f1_malignant": 0.7227272727272728,
+  "confusion_matrix": {
+    "labels": [
+      0,
+      1
+    ],
+    "matrix": [
+      [
+        1441,
+        171
+      ],
+      [
+        73,
+        318
+      ]
+    ]
+  },
+  "true_negatives": 1441,
+  "false_positives": 171,
+  "false_negatives": 73,
+  "true_positives": 318,
+  "roc_auc_malignant": 0.9295754983404517,
+  "label_0": "Benign (research label)",
+  "label_1": "Potentially Malignant (research label)"
+}

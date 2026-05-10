@@ -1,0 +1,11 @@
+# Training stack (install in a venv under models/ or project root)
+torch
+torchvision
+certifi
+pillow
+pandas
+scikit-learn
+tqdm
+numpy
+matplotlib
+seaborn

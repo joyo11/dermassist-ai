@@ -1,0 +1,23 @@
+{
+  "task": "binary",
+  "model_name": "resnet50",
+  "num_classes": 2,
+  "class_names": [
+    "Benign",
+    "Potentially Malignant"
+  ],
+  "binary_dx_high_risk": [
+    "akiec",
+    "bcc",
+    "mel"
+  ],
+  "binary_dx_low_risk": [
+    "bkl",
+    "df",
+    "nv",
+    "vasc"
+  ],
+  "image_size": 224,
+  "fold": 0,
+  "n_splits": 5
+}

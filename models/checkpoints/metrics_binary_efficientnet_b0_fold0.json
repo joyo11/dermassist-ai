@@ -1,0 +1,8 @@
+{
+  "best_val_acc": 0.8781827259111333,
+  "checkpoint": "/Users/shafay11aug/Downloads/b_ZERGGNLZNi2/dermassist-ai/models/checkpoints/best_binary_efficientnet_b0_fold0.pt",
+  "task": "binary",
+  "model_name": "efficientnet_b0",
+  "fold": 0,
+  "epochs_run": 10
+}
